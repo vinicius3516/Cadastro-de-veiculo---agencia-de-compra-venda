@@ -1,0 +1,172 @@
+/* Reset Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #f0ebf8;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #333;
+}
+
+label,
+p {
+  color: #444;
+  font-size: 1.6rem;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="file"],
+textarea {
+  width: 40rem;
+}
+
+textarea {
+  padding: 1rem 0.5rem;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30rem;
+  background-image: url(https://maggialugueldecarros.com.br/wp-content/uploads/2019/01/frotas-carros-1916x499.png);
+  background-size: cover;
+  background-position: center;
+  width: 85rem;
+  margin: 0 50rem 0 47rem;
+  opacity: 0.1;
+}
+
+h1 {
+  padding: 2rem;
+  color: #673ab7;
+  margin-top: 0;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 900;
+  position: absolute;
+  top: 25rem;
+}
+
+.form-container {
+  background-color: #fdfdfd;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+}
+
+/* form-header */
+.form-header {
+  border-bottom: 1px solid #dfdfdf;
+  height: 4.5rem;
+  box-shadow: 0 0 0.5rem rgb(229, 229, 229);
+
+  & p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
+    width: 15rem;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    height: 4.5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+  }
+}
+
+/* form-body */
+
+.form-body {
+  padding: 3rem;
+  margin: 0 auto;
+  box-shadow: 0 0 0.5rem rgb(193, 193, 193);
+
+  & p {
+    margin-bottom: 2rem;
+  }
+
+  & h2 {
+    font-size: 2rem;
+  }
+}
+
+.form-titulo {
+  margin-bottom: 1.5rem;
+}
+
+.obrigatorio {
+  color: #d80835;
+}
+
+.box-input {
+  margin-bottom: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  & p {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.bloquear {
+  display: block;
+}
+
+.opcional-box {
+  display: inline-block;
+  margin: 2rem 3rem 3rem 0;
+}
+
+.lista-opcional li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+
+.botao-submit {
+  background-color: #673ab7;
+  color: white;
+  border: 2px solid transparent;
+  width: 15rem;
+  height: 5rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+.botao-submit:hover {
+  background-color: white;
+  border-color: #673ab7;
+  color: #673ab7;
+}
